@@ -2,38 +2,70 @@ body {
 	background-color: #f7f7f7;
 	margin-top: 50px;
 	overflow: scroll;
+	padding-bottom: 50px;
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	display: block;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	color: #231f20;
+	font-weight: 700px;
+	font-size: 50px;
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
 	color: #231f20;
 	padding-top: 10px;
+	font-weight: 400px;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #231f20;
+	padding-top: 10px;
+	font-weight: 400px;
+	line-height: 150%;
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	font-style: italic;
+	color: #231f20;
+	font-weight: 400px;
+}
+
+
+nav	{
+	margin: auto;
+	display: block;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400px;
+	font-size: 15px;
 	color: #231f20;
 }
 
-hr {
-  display: block;
-  width: 30%;
-  border-style: solid;
-  border-width: 1px;
-  color: #231f20;
-  background-color: #231f20;
+a.active {
+	text-decoration: none;
+	border-bottom: 7px solid black;
+	}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #231f20;
+	padding: 0px 20px 0px;
+
+}
+
+a:hover, a:active	{
+	text-decoration: none;
+	border-bottom: 7px solid black;
 }
 
 
@@ -56,10 +88,12 @@ hr {
 		max-width: 100%;
 	}
 
-	hr {
-	  width: 80%;
-	}
 	h1 {
-	font-size: 30px;
+	font-size: 40px;
 }
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #231f20;
+	padding: 0px 10px 0px;
 }
